@@ -59,6 +59,7 @@ const TaskForm = ({ setTasks }) => {
           onChange={changeTask}
           className="task_input"
           placeholder="Enter your task..."
+          required
         />
         <div className="task_form_bottom_line">
           <div>
