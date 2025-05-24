@@ -136,21 +136,42 @@
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-  .app-container {
-    padding: 1rem;
+  .app {
+    margin-top: 2.5rem;
   }
 
-  h1 {
-    font-size: 1.5rem;
+  .app_header > form {
+    width: 90%;
+  }
+  .app_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 8%;
   }
 
-  .task-item {
+  .task_column {
+    width: 90%;
+  }
+
+  .task_form_bottom_line {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .task-actions {
+  .task_submit {
     margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .task-input {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .task-actions button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.6rem;
   }
 }
 
